@@ -1,0 +1,143 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar */
+
+header{
+    /* width: 100%;
+    z-index: 9;
+    padding: 15px 0px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 11px 68px 0px rgb(0 0 0 / 14%); */
+}
+nav{
+    box-shadow: 0px 11px 68px 0px rgb(0 0 0 / 14%); 
+
+}
+.navbar-brand img{
+    width: 2rem;
+}
+.navbar-nav li{
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 55px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+}
+.navbar-nav .nav-link:hover {
+    color: #0e6aa9 !important;
+}
+.btn-signup{
+    height: 3rem;
+    width: 8rem;
+    text-align: center;
+    border-radius: 50px;
+    margin-right: 20px;
+    font-weight: 700;
+    color: #010101;
+    display: inline-block;
+    text-decoration: none;
+    z-index: 1;
+    border: 2px solid #0e6aa9;
+}
+
+/* navbar ends here */
+
+.hero-section{
+    padding-top: 2rem;
+}
+.hero-section h1{
+    font-size: 2.3rem;
+}
+.get-started a{
+    height: 50px;
+    width: 175px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50px;
+    margin-right: 20px;
+    font-weight: 700;
+    color: #010101;
+    display: inline-block;
+    text-decoration: none;
+    z-index: 1;
+    border: 2px solid #0e6aa9;
+}
+.hero-section img{
+    width: 100%;
+}
+
+/* services */
+.services{
+    padding: 4rem;
+}
+span{
+    color: #0e6aa9;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 3px 30px;
+    border-radius: 8px;
+    display: inline-block;
+    background-color: #c2dced;
+
+}
+.card{
+    border-radius: 10px;
+    padding: 25px 30px 30px 35px;
+    z-index: 1;
+    background-color: #fff;
+    transition: 0.5s all ease-in-out;
+    box-shadow: 0px 20px 81px 0px rgb(8 0 20 / 14%);
+}
+
+
+
+/* about */
+.about{
+    padding: 4rem;
+    background-color: #ebedf2;
+}
+.about img{
+    width: 100%;
+}
+
+/* features */
+.features{
+    padding: 4rem;
+}
+.features img{
+    width: 3rem;
+}
+.features-more{
+    
+}
+
+/* media queries */
+@media (min-width: 576px) { 
+
+}
+
+@media (min-width: 768px) { 
+   
+ }
+
+@media (min-width: 992px) { 
+    .hero-section{
+        padding-top: 5rem;
+    }
+    .hero-section h1{
+        font-size: 55px;
+    }
+    .services h2{
+        font-size: 40px;
+    }
+    
+ }
+
+@media (min-width: 1200px) { 
+
+}
