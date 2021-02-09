@@ -48,7 +48,7 @@ nav{
 /* navbar ends here */
 
 .hero-section{
-    padding-top: 2rem;
+    padding: 3rem 1rem 0rem;
 }
 .hero-section h1{
     font-size: 2.3rem;
@@ -73,9 +73,9 @@ nav{
 
 /* services */
 .services{
-    padding: 4rem;
+    padding: 3rem 2rem;
 }
-span{
+.span{
     color: #0e6aa9;
     font-size: 18px;
     font-weight: 500;
@@ -104,7 +104,7 @@ span{
 
 /* about */
 .about{
-    padding: 4rem;
+    padding: 3rem 2rem;
     background-color: #ebedf2;
 }
 .about img{
@@ -120,13 +120,13 @@ span{
 
 /* features */
 .features{
-    padding: 4rem;
+    padding: 3rem 2rem;
 }
 .features img{
     width: 3rem;
 }
 .more-features{
-    padding: 4rem;
+    padding: 3rem 2rem;
     background-color: #ebedf2;
 }
 .more-features img{
@@ -175,7 +175,7 @@ span{
 
 /* FAQ */
 .faq{
-    padding: 4rem;
+    padding: 3rem 2rem;
     /* background-color: #ebedf2; */
 }
 
@@ -183,7 +183,7 @@ span{
 
 .pricing{
     background-color: #ebedf2;
-    padding: 4rem;
+    padding: 3rem 2rem;
 }
 
 
@@ -235,14 +235,14 @@ footer ul li{
 }
 
 .footer-items{
-    padding-top: 4rem;
-    padding-left: 7rem;
-    padding-right: 7rem;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .sub-footer {
     background-color: #164d73;
-    padding-left: 7rem;
-    padding-right: 7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 
@@ -262,9 +262,24 @@ footer ul li{
     .hero-section h1{
         font-size: 55px;
     }
+    .services, .about, .features, .more-features, .faq, .pricing{
+        padding: 4rem;
+    }
     .services h2{
         font-size: 40px;
     }
+    .footer-items{
+        padding-top: 4rem;
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+    .sub-footer {
+        background-color: #164d73;
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+
+    
     
  }
 
